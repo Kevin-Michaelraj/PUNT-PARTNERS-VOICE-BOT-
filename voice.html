@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Bot</h1>
+        <div class="api-key">
+            <label for="apiKey">OpenAI API Key:</label>
+            <input type="text" id="apiKey" placeholder="Enter your OpenAI API Key">
+        </div>
+        <div class="conversation">
+            <div id="transcript" class="transcript"></div>
+            <div id="response" class="response"></div>
+        </div>
+        <button id="startButton" class="button">Start Listening</button>
+        <button id="stopButton" class="button" disabled>Stop Listening</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
